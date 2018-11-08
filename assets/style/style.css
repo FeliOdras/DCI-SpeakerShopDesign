@@ -92,15 +92,23 @@
   }
 
   .intro,
-  .featImg {  
+  .productSingle {  
         margin:20vh auto 50px auto;
         width:550px;
     }
 
-  .intro h2 {
+  .intro h2
+   {
       font-weight:600;
       font-size:23px;
       padding-bottom:23px;
+  }
+  
+  .productSingle h2 {
+      text-align: center;
+      font-weight:600;
+      font-size:23px;
+      padding:23px 0;
   }
 
   a.videoButton {
@@ -206,4 +214,9 @@
         text-align: center;
         padding:20px 0;
         font-size:14px;
+    }
+
+    .productDescription {
+        font-size:14px;
+        color: #999;
     }
