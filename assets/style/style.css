@@ -158,3 +158,25 @@
         font-weight:600;
         text-shadow: 0 0 10px #000;
     }
+
+    .moreOuter {
+        background-color:rgb(255,255,255,0.5);
+        padding:5px;
+        border-radius: 100%;
+        display: inline-block;
+        width:25px;
+        height:25px;
+    }
+
+    .moreInner {
+        background-color:rgb(255,255,255,1);
+        padding:5px;
+        border-radius: 100%;
+        display: inline-block; 
+        width:16px;
+        height: 16px;
+        background-image:url('../images/arrow-right-solid.svg');
+        background-repeat:no-repeat;
+        background-size:8px 8px;
+        background-position: center;
+    }
