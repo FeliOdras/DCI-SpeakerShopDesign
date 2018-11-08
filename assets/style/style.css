@@ -111,7 +111,7 @@
       padding:23px 0;
   }
 
-  a.videoButton {
+  a.button {
       color:#fff;
       background-color:#000;
       text-decoration: none;
@@ -123,7 +123,7 @@
       margin-top:30px;   
   }
 
-  a.videoButton:hover {
+  a.button:hover {
       background-color: #ccc;
       color:#000;
   }
