@@ -22,3 +22,9 @@
          url('../fonts/work-sans-v3-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/work-sans-v3-latin-700.svg#WorkSans') format('svg'); /* Legacy iOS */
   }
+
+  * {
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+  }
