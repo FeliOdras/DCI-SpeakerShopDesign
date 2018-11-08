@@ -35,6 +35,12 @@
       font-family: 'Work Sans', sans-serif;
   }
 
+  .clearfix:after {
+      content:'';
+      clear: both;
+      display: table;
+  }
+
   #page {
       background-color:#fff;
       max-width: 800px;
@@ -43,6 +49,10 @@
 
   header {
       padding:30px;
+  }
+
+  .logo {
+      display:inline-block;
   }
 
   .logo img  {
@@ -56,4 +66,13 @@
       font-size:20px;
       font-weight:400;
       line-height:20px;
+  }
+
+  .mainNavigation {
+      float:right;
+  }
+
+  .mainNavigation li {
+      list-style-type: none;
+      display:inline;
   }
