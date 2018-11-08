@@ -88,7 +88,7 @@
   }
 
   .intro {
-      margin:20vh auto 20px auto;
+      margin:20vh auto 50px auto;
       width:550px;
   }
 
@@ -96,4 +96,26 @@
       font-weight:600;
       font-size:23px;
       padding-bottom:23px;
+  }
+
+  a.videoButton {
+      color:#fff;
+      background-color:#000;
+      text-decoration: none;
+      font-size:12px;
+      text-transform: uppercase;
+      padding:0 5px;
+      transition:all 0.8s;
+      float:right;   
+      margin-top:30px;   
+  }
+
+  a.videoButton:hover {
+      background-color: #ccc;
+      color:#000;
+  }
+
+  a.videoButton:after {
+      content:'\25B6';
+      padding-left:5px;
   }
