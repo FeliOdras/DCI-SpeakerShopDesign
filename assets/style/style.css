@@ -119,27 +119,25 @@
       content:'\25B6';
       padding-left:5px;
   }
-
+  .products {
+      text-align: center;
+  }
   .products section{
       width:30%;
       height:350px;
       display:inline-block;
-      float: left;
-    }
-
-    .products section:nth-of-type(2) {
-        margin-left:34px;
-        margin-right:35px;
     }
 
     .productBox {
         background-size:cover;
         position: relative;
+        text-align: left;
     }
 
     .productOne {
         background-image:url('../images/white-box.jpg');
         background-position: center center;
+        float:left;
     }
 
     .productTwo {
@@ -149,6 +147,7 @@
     .productThree{
         background-image:url('../images/black-white.jpg');
         background-position: center center;
+        float:right;
     }
 
     .productBox h2 {
