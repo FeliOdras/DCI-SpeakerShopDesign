@@ -28,3 +28,9 @@
       padding:0;
       box-sizing: border-box;
   }
+
+  body {
+      background-color:#DCDCDC;
+      padding:20px;
+      font-family: 'Work Sans', sans-serif;
+  }
