@@ -134,6 +134,7 @@
 
     .productBox {
         background-size:cover;
+        position: relative;
     }
 
     .productOne {
@@ -166,6 +167,15 @@
         display: inline-block;
         width:25px;
         height:25px;
+        position: absolute;
+        left:30px;
+        bottom:30px;
+        transition:all 0.8s;
+    }   
+
+    .moreOuter:hover {
+        width:35px;
+        height:35px;
     }
 
     .moreInner {
@@ -179,4 +189,11 @@
         background-repeat:no-repeat;
         background-size:8px 8px;
         background-position: center;
+        transition:all 0.8s;
+    }
+
+    .moreOuter:hover .moreInner{
+        width: 25px;
+        height:25px;
+        background-size: 12px 12px;
     }
