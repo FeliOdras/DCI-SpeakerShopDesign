@@ -24,3 +24,7 @@ assets/images
 
 Font: Work Sans from Google Fonts
 
+### Solution
+
+[SpeakerShopDesign](https://feliodras.github.io/DCI-SpeakerShopDesign/) by FeliOdras
+
