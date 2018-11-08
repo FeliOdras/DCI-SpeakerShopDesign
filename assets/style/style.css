@@ -33,6 +33,7 @@
       background-color:#DCDCDC;
       padding:20px;
       font-family: 'Work Sans', sans-serif;
+      font-size: 16px;
   }
 
   .clearfix:after {
@@ -75,4 +76,12 @@
   .mainNavigation li {
       list-style-type: none;
       display:inline;
+  }
+
+  .mainNavigation li a {
+      color:#000;
+      text-decoration: none;
+      padding:0 10px;
+      display:inline-block;
+      font-size:15px;
   }
